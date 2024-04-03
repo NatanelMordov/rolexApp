@@ -1,0 +1,47 @@
+.watch-item{
+  position: relative;
+  background-color: #EEEEEE;
+  border-radius: 5px;
+}
+.watch-item:hover{
+    background-color: #e5e5e5;
+     
+}
+
+.watch-item-info{
+    position: absolute;
+    float: left;
+    margin-top: 80px;
+    font-size: large;
+    font-weight: bold;
+    padding-right: 150px; 
+    margin-left: 40px; 
+}
+.watch-item-desc{
+    position: absolute;
+    float: left;
+    margin-top: 120px;
+    font-size: medium;
+    margin-left: 40px;
+    
+   
+}
+.watch-item-image{
+    float:inline-end;
+    height:250px;
+  
+    
+}
+.watch-item-image:hover{
+   transform: scale(1.07);
+    transition: 0.7s;
+}
+.watch-item-price{
+    position: absolute;
+    float: left;
+    margin-top: 150px;
+    font-size: m;
+    margin-left: 40px;
+    text-align: center;
+
+}
